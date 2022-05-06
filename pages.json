@@ -1,0 +1,74 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/home",
+			"style": {
+				
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/cate/cate",
+			"style": {
+				
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+               
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "啥玩意",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"selectedColor": "#c00000",
+		"color": "#000",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "./static/c1.png",
+				"selectedIconPath": "./static/c1.png"			
+		
+			},{
+				"pagePath": "pages/cate/cate",
+				"text": "分类",
+				"iconPath": "./static/c2.png",
+				"selectedIconPath": "./static/c2.png"
+			},{
+				"pagePath": "pages/cart/cart",
+				"text": "购物车",
+				"iconPath": "./static/c3.png",
+				"selectedIconPath": "./static/c3.png"
+			},{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "./static/c4.png",
+				"selectedIconPath": "./static/c4.png"
+			}
+		]
+	}
+}
