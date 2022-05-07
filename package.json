@@ -1,0 +1,22 @@
+{
+  "name": "uiapp-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sebastian-github-2020/learn-uniapp.git"
+  },
+  "author": "zaks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sebastian-github-2020/learn-uniapp/issues"
+  },
+  "homepage": "https://github.com/Sebastian-github-2020/learn-uniapp#readme",
+  "dependencies": {
+    "@escook/request-miniprogram": "^0.2.1"
+  }
+}
